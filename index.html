@@ -1,0 +1,100 @@
+---
+    layout: home
+---
+
+<div id="jumbotron" class="jumbotron" data-scroll data-scroll-showCallback="navbarBlack()" data-scroll-hideCallback="navbarWhite()">
+    <div class="jumbotron__text">
+        <h1>Yusril Herlian Syah</h1>
+        <p>Web Developer &amp; Designer</p>
+    </div>
+    <div class="jumbotron__scrolldown">
+        <a href="/#about"><span class="fa fa-angle-down fa-4x" aria-hidden="true"></span></a>
+    </div>
+</div>
+
+<div class="container" id="content-scroller">
+    <div id="about" class="text-center section">
+        <h2 data-scroll="toggle(.fromTopIn, .fromTopOut) once">About</h2>
+        <div>
+            <p data-scroll="toggle(.fromBottomIn, .fromBottomOut) once">My name is Yusril Herlian Syah but I don't know why people call me Fesuy. I am web developer &amp; designer in Indonesia. My fields of expertise are HTML, Javascript, CSS, PHP and Python. But, I'm big fan of Javascript because that have large of community on the world. I also code an Android but, that's not my primarily focus because my computer spec is very limited for now.</p>
+            <p data-scroll="toggle(.fromBottomIn, .fromBottomOut) once">In every job I do, I always use framework like Laravel, Codeigniter, Symfony, ExpressJS and etc. That's because that have a lot of code tested by many people with an expertise. I'm also fan of REST Web Service, TDD and Clean Coding.</p>
+        </div>
+
+        <h3 data-scroll="toggle(.fromRightIn, .fromRightOut) once">Education</h3>
+       
+        <div class="educations" data-scroll="toggle(.fromLeftIn, .fromLeftOut) once">
+            <div class="education">
+                <span class="education__icon fa fa-graduation-cap fa-4x"></span>
+                <div class="pull-left">
+                    <span class="education__school">Universitas Putra Indonesia Cianjur &mdash; <small>(2012 - 2016)</small></span>
+                    <span class="education__spec"><b>Department</b>: Computer Science/Informatics</span>
+                    <span class="education__spec"><b>Final Project</b>: Multiplayer Game.</span>
+                    <span class="education__spec"><b>Internship</b>: Inventory System</span>
+                </div>
+            </div>
+       </div>
+
+       <h3 data-scroll="toggle(.fromRightIn, .fromRightOut) once">Skills</h3>
+
+       <div class="skills clearfix">
+            <div class="skills__skill" data-value="90" data-text="HTML"></div>
+            <div class="skills__skill" data-value="90" data-text="CSS"></div>
+            <div class="skills__skill" data-value="80" data-text="Javascript"></div>
+            <div class="skills__skill" data-value="90" data-text="PHP"></div>
+            <div class="skills__skill" data-value="90" data-text="Python"></div>
+            <div class="skills__skill" data-value="70" data-text="Java"></div>
+            <div class="skills__skill" data-value="80" data-text="Sass"></div>
+            <div class="skills__skill" data-value="60" data-text="Ruby"></div>
+       </div>
+    </div>
+    
+    <div id="works" class="works text-center section">
+        <h2 data-scroll="toggle(.fromTopIn, .fromTopOut) once">Latest Work</h2>
+        <div class="work" data-scroll="toggle(.fromBottomIn, .fromBottomOut) once" >
+            <span class="fa fa-github fa-3x work__image"></span>
+            <div class="work__detail">
+                <a title="ChartJsPhpHelper" href="{{ site.links.works.chartjsphphelper }}" target="_blank" class="work__detail__title">ChartJsPhpHelper</a>
+                <span class="work__detail__description">A Simple Chart.js Helper for PHP.</span>
+            </div>
+        </div>
+        <div class="work" data-scroll="toggle(.fromBottomIn, .fromBottomOut) once" >
+            <span class="fa fa-github fa-3x work__image"></span>
+            <div class="work__detail">
+                <a title="Colorainbow" href="{{ site.links.works.colorainbow }}" target="_blank" class="work__detail__title">Colorainbow</a>
+                <span class="work__detail__description">Easiest way for create rainbow color for your projects.</span>
+            </div>
+        </div>
+        <div class="work" data-scroll="toggle(.fromBottomIn, .fromBottomOut) once" >
+            <span class="fa fa-github fa-3x work__image"></span>
+            <div class="work__detail">
+                <a title="Scriptrunner Sublime" href="{{ site.links.works.scriptrunner }}" target="_blank" class="work__detail__title">Scriptrunner</a>
+                <span class="work__detail__description">Sublime plugin for running script.</span>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="work" data-scroll="toggle(.fromBottomIn, .fromBottomOut) once" >
+            <span class="fa fa-github fa-3x work__image"></span>
+            <div class="work__detail">
+                <a title="Lcdnjs" href="{{ site.links.works.lcdnjs }}" target="_blank" class="work__detail__title">Lcdnjs</a>
+                <span class="work__detail__description">Sublime Text Snippet for Latest cdnjs libraries.</span>
+            </div>
+        </div>
+        <div class="work" data-scroll="toggle(.fromBottomIn, .fromBottomOut) once" >
+            <span class="fa fa-github fa-3x work__image"></span>
+            <div class="work__detail">
+                <a title="Bootstrapformsublime" href="{{ site.links.works.bootstrapformsublime }}" target="_blank" class="work__detail__title">Bootstrapformsublime</a>
+                <span class="work__detail__description">Bootstrap Form Sublime Snippet.</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="me" class="me text-center section">
+        <h2 data-scroll="toggle(.fromTopIn, .fromTopOut) once">Find Me</h2>
+        <div data-scroll="toggle(.fromBottomIn, .fromBottomOut) once">
+            <a title="Github" href="{{ site.links.github }}" target="_blank"><span class="fa fa-github"></span></a>
+            <a title="Stackoverflow" href="{{ site.links.stackoverflow }}" target="_blank"><span class="fa fa-stack-overflow"></span></a>
+            <a title="Twitter" href="{{ site.links.twitter }}" target="_blank"><span class="fa fa-twitter"></span></a>
+            <a title="Email" href="mailto:yusrilhsyah@gmail.com"><span class="fa fa-envelope"></span></a>
+        </div>
+    </div>
+</div>
