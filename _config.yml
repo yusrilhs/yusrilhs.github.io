@@ -1,0 +1,51 @@
+# Dependencies
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  auto_ids: true
+
+# Permalinks
+permalink: pretty
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-sitemap
+
+
+# Sass configuration
+sass:
+  sass_dir: 'assets/css'
+  style: compressed
+
+# Server
+encoding: UTF-8
+
+# Site variables
+title: 'Yusril Herlian Syah'
+description: 'Web Developer & Designer from Indonesia'
+author: 'Yusril Herlian Syah'
+
+# Site links
+links:
+  github: https://github.com/yusrilhs
+  stackoverflow: https://stackoverflow.com/users/6351661/yusril-herliansyah
+  twitter: https://twitter.com/yusrilhsyah
+  linkedin: https://www.linkedin.com/in/yusril-herlian-syah-538b64141
+  # Latest work links
+  works:
+    colorainbow: https://github.com/yusrilhs/colorainbow
+    chartjsphphelper: https://github.com/yusrilhs/ChartJsPhpHelper
+    scriptrunner: https://github.com/yusrilhs/scriptrunner
+    bootformsublime: https://github.com/yusrilhs/bootstrapformsublime
+    lcdnjs: https://github.com/yusrilhs/lcdnjs
+
+# Exclude
+exclude:
+  - CNAME
+  - README.md 
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
