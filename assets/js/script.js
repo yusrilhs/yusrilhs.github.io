@@ -76,6 +76,8 @@
                     navbar.classList.remove('navbar--white');
                 }
             };
+        } else {
+            headroom.init();
         }
     });
 

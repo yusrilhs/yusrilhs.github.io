@@ -8,11 +8,23 @@
     clear: both;
 }
 
-.text-center {
+.text--center {
     text-align: center;
 }
 
-.pull-left {
+.pull--left {
     float: left;
+}
+
+.pull--right {
+    float: right;
+}
+
+.screen--center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
 }
 

@@ -8,12 +8,17 @@ kramdown:
 # Permalinks
 permalink: pretty
 
+future: true
+
 # Plugins
 plugins:
   - jekyll-paginate
   - jekyll-redirect-from
   - jekyll-sitemap
 
+# Pagination 
+paginate: 20
+paginate_path: "/blog/page/:num/"
 
 # Sass configuration
 sass:

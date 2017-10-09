@@ -10,8 +10,18 @@
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
 }
+html {
+    height: 100%;
+}
 
 body {
+    min-height: 100%;
+    padding: 0.1px; // Margin collapsing
+    margin-bottom: 80px;
+}
+
+body {
+    position: relative;
     font-size: $base-font-size;
     color: $base-font-color;
     font-family: $base-font-family;
@@ -26,19 +36,22 @@ body, .smooth-container {
 
 a {
     position: relative;
-    color: $base-font-color;
+    color: $primary-color;
     text-decoration: none;
     display: inline-block;
+    -webkit-transition: color .2s;
+            transition: color .2s;
 
     &:after,
     &:before {
         position: absolute;
-        bottom: 0;
+        bottom: 0px;
         content: "";
         width: 0%;
+        z-index: -1;
         border-bottom: 2px #4E66F9 solid;
-        -webkit-transition: width .2s;
-                transition: width .2s;
+        -webkit-transition: all .2s;
+                transition: all .2s;
     }
 
     &:after {
@@ -50,6 +63,7 @@ a {
     }
     
     &:hover {
+        text-decoration: none;
         color: darken($base-font-color, 20%);
 
         &:after,
@@ -69,6 +83,10 @@ h6 {
     font-family: $base-font-family;
     margin-top: 10px;
     margin-bottom: 10px;
+
+    a {
+        color: darken($base-font-color, 20%);
+    }
 }
 
 h1 {
@@ -123,6 +141,7 @@ h6 {
         line-height: $navbar-height;
         color: $navbar-font-color;
         font-weight: 300;
+        text-decoration: none;
         text-transform: uppercase;
         -webkit-transition: color .2s;
                 transition: color .2s;
@@ -347,7 +366,7 @@ h6 {
     .education {
         white-space: normal;
 
-        .pull-left {
+        .pull--left {
             float: none;
         }
     }
@@ -378,6 +397,11 @@ h6 {
     .skills__skill {
         width: 30%;
     }
+}
+
+.works a,
+.me a {
+    color: $base-font-color;
 }
 
 .work {
@@ -440,11 +464,53 @@ h6 {
     }
 }
 
+.container-blog {
+    font-size: 110%;
+    margin-top: ($navbar-height + 40px);
+}
+
+.read-more {
+    display: inline-block;
+    padding: 10px 25px;
+    border: 1px $primary-color solid;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+
+    &:hover {
+        color: #FFFFFF;
+
+        &:after {
+            width: 100%;
+        }
+    }
+
+    &:after {
+        border-width: 60px;
+        left: 0;
+    }
+
+    &:before {
+        content: normal;
+    }
+}
+
 .footer {
-    margin-top: 40px;
+    position: absolute;
+    bottom: -80px;
+    width: 100%;
     font-family: $base-font-family;
     font-weight: 600;
+    min-height: 40px;
     font-size: 14px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
+}
+
+code {
+    display: block;
+    background-color: #212121;
+    color: #F7F7F7;
+    padding: 8px;
+    overflow: auto;
 }
