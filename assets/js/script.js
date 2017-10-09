@@ -103,7 +103,6 @@
                 color: 'rgba('+ [r,g,b].join(',') +', .7)',
                 duration: 3000,
                 strokeWidth: 2,
-                trailWidth: 0,
                 skill: '<b>'+ skillText +'</b>',
                 easing: 'easeInOut',
                 text: {

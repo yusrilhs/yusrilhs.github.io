@@ -9,8 +9,11 @@ kramdown:
 permalink: pretty
 
 # Plugins
-# plugins:
-#   - jekyll-assets
+plugins:
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-sitemap
+
 
 # Sass configuration
 sass:
@@ -30,6 +33,7 @@ links:
   github: https://github.com/yusrilhs
   stackoverflow: https://stackoverflow.com/users/6351661/yusril-herliansyah
   twitter: https://twitter.com/yusrilhsyah
+  linkedin: https://www.linkedin.com/in/yusril-herlian-syah-538b64141
   # Latest work links
   works:
     colorainbow: https://github.com/yusrilhs/colorainbow
