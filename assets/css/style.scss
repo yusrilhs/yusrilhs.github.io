@@ -514,3 +514,51 @@ code {
     padding: 8px;
     overflow: auto;
 }
+
+
+.work-experience {
+    @extend .clearfix;
+    position: relative;
+    display: inline-block;
+    margin: 0px auto;
+    white-space: nowrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.work-experience__place,
+.work-experience__spec {
+    display: block;
+}
+
+.work-experience__spec ul {
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    
+    li {
+        text-align: center;
+    }
+}
+
+
+.work-experience__place {
+    font-size: 110%;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 759px) {
+    .work-experience {
+        white-space: normal;
+
+        .pull--left {
+            float: none;
+        }
+    }
+
+    .work-experience__place,
+    .work-experience__spec {
+        text-align: center;
+    }
+}
