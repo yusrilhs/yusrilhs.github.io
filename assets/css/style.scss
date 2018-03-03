@@ -519,7 +519,7 @@ code {
 .work-experience {
     @extend .clearfix;
     position: relative;
-    display: inline-block;
+    display: block;
     margin: 0px auto;
     white-space: nowrap;
     padding-top: 10px;
@@ -538,6 +538,7 @@ code {
     
     li {
         text-align: center;
+        display: inline-block;
     }
 }
 
