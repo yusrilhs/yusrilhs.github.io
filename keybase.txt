@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/yusrilhs
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://yusril.js.org
+  * I am yusrilhs (https://keybase.io/yusrilhs) on keybase.
+  * I have a public key ASAW2c-Mo_94S7fHch73bL5HZEJNmM9AU_F32El3FmVWLgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012016d9cf8ca3ff784bb7c7721ef76cbe4764424d98cf4053f177d849771665562e0a",
+      "host": "keybase.io",
+      "kid": "012016d9cf8ca3ff784bb7c7721ef76cbe4764424d98cf4053f177d849771665562e0a",
+      "uid": "b7aa7811e92ba84ffd295fb4caff9319",
+      "username": "yusrilhs"
+    },
+    "merkle_root": {
+      "ctime": 1524715320,
+      "hash": "77516e466a4fb7903a63ca40a101e91b18a5982860c2f81d111c7afd417cfbaabf97558a9e3dfd4ef47da6004f69367558659b0d112ae0ed0fbbe8e898c7508f",
+      "hash_meta": "bc3ca3f525f698b25ddee39926eaff36951cbe982aa40e1ea259592ef00ed933",
+      "seqno": 2443339
+    },
+    "service": {
+      "entropy": "+CQEUdJ/H99TIAKdVLJa1aNk",
+      "hostname": "yusril.js.org",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.47"
+  },
+  "ctime": 1524715372,
+  "expire_in": 504576000,
+  "prev": "0e7b4748f56354a4252480e05aae5e841d7041bedf833bab53098251805a2894",
+  "seqno": 10,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgFtnPjKP/eEu3x3Ie92y+R2RCTZjPQFPxd9hJdxZlVi4Kp3BheWxvYWTESpcCCsQgDntHSPVjVKQlJIDgWq5ehB1wQb7fgzurUwmCUYBaKJTEIDvJKU6G3Txk+Z1FljdFaWg8E2mocVGzjjc9NIUYsbm8AgHCo3NpZ8RABGLgub87hYtjsteql/jln69O4Q2j23EcCDf9aSRgK/nREMsfj8l8MXcPSH2H0t8Bctg19VjSYAYLSo1L6H5oDqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIIZEkE+q6PCbkVPC/XcRLBj5o50bE53VUjBj8gL4NGIVo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/yusrilhs
+
+==================================================================
